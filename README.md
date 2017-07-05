@@ -1,12 +1,12 @@
 # prettier-semi
 
-Prettier integration with [semistandard][semistandard] compliant with [prettier-eslint][prettier-eslint] interface.
+Prettier integration with [semistandard][semistandard]. Compliant with [prettier-eslint][prettier-eslint] interface.
 
 [![npm version](https://badge.fury.io/js/prettier-semi.svg)](https://badge.fury.io/js/prettier-semi)
 [![npm downloads](https://img.shields.io/npm/dm/prettier-semi.svg?style=flat-square)](https://www.npmjs.com/package/prettier-semi)
 
 ## Usage
-Use in where ever place you do: `require('prettier-eslint')`
+Use in whereever place you do: `require('prettier-eslint')`
 
 ## License
 
