@@ -1,6 +1,6 @@
 {
   "name": "prettier-semi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "prettier -> semistandard --fix -> Formatted Code",
   "keywords": [
     "prettier",
@@ -16,16 +16,16 @@
     "node": ">=4"
   },
   "scripts": {
-    "lint": "semistandard --verbose | snazzy",
+    "lint": "semistandard --fix --verbose | snazzy",
     "test": "npm run lint",
     "format": "prettier-semi --no-bracket-spacing --write '**/*.js'"
   },
   "dependencies": {
     "prettier-eslint": "*",
-    "semistandard": "*",
     "semistandard-prettier-eslint": "1.x.x"
   },
   "devDependencies": {
+    "semistandard": "*",
     "snazzy": "*"
   },
   "repository": {
